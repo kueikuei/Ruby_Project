@@ -1,0 +1,18 @@
+<!-- 三行code如何變成這麼多東西？
+Ruby轉換而成... -->
+
+<!-- <h1>New Order</h1> -->
+
+<!-- form為封包，將固定的html寫成此form封包
+render 為呼叫此封包 -->
+
+<!-- partial title -->
+<!-- 丟參數方式title: 'New Order'-->
+<%= render 'shared/title', title: 'New Order' %> 
+
+<%= render 'form', order: @order %>
+
+<%= link_to 'Back', orders_path %>
+
+
+
