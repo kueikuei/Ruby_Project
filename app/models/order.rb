@@ -16,8 +16,8 @@ class Order < ApplicationRecord
 	
 	
 	#任何 email 應該都是獨一無二的，所以應該卻確保它的獨特性
-	validates :email, presence: true
-	validates :email, uniqueness: true
+	#validates :email, presence: true
+	#validates :email, uniqueness: true
 
 
 end
